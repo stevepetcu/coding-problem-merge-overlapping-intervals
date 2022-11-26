@@ -15,7 +15,7 @@ import static org.junit.jupiter.params.provider.Arguments.arguments;
 class OverlappingIntervalsMergerServiceImplTest {
     private final OverlappingIntervalsMergerService service = new OverlappingIntervalsMergerServiceImpl();
 
-    static Stream<Arguments> inputsAndOutputsProvider() {
+    static private Stream<Arguments> inputsAndOutputsProvider() {
         return Stream.of(
                 arguments(
                         List.of(
